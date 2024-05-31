@@ -1,0 +1,42 @@
+body {
+    background-color: #FDFBD2;
+    
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Retro Star', sans-serif;
+    color: #6F1F46;                                       
+}
+
+#knop {
+    width: 200px;
+    height: 50px;
+    background-color: #6F1F46;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Retro Star', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    transition-duration: 250ms;
+}
+
+#knop:hover {
+    transform: scale(1.050);
+}
+
+.container, .container2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+}
+
+#plaatje {
+    justify-content: space-evenly;
+}
